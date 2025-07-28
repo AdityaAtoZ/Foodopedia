@@ -16,7 +16,7 @@ interface DetectedBarcode {
   };
 }
 
-const BarcodeScanner: React.FC<BarcodeScannerProps> = ({ onDetected, debug = false }) => {
+const BarcodeScanner: React.FC<BarcodeScannerProps> = ({ onDetected, debug = false, stopOnDetection = false }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const detectorRef = useRef<BarcodeDetector | null>(null);
@@ -134,7 +134,7 @@ if (barcodes.length > 0 && !detectedRef.current) {
         streamRef.current.getTracks().forEach(track => track.stop());
       }
     };
-  }, [onDetected]);
+  }, [onDetected, stopOnDetection]);
 
   return (
     <div style={{ position: 'relative', display: 'inline-block' }}>

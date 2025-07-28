@@ -239,7 +239,7 @@ export default function ScanPage() {
                 animation: 'spin 2s linear infinite',
                 margin: '0 auto 12px'
               }}></div>
-              <p style={{fontSize: '14px', fontWeight: '500'}}>Tap "Start Camera" to begin scanning</p>
+              <p style={{fontSize: '14px', fontWeight: '500'}}>Tap &quot;Start Camera&quot; to begin scanning</p>
             </div>
           )}
           
