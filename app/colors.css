@@ -1,0 +1,26 @@
+:root {
+  --text: #1a1a1a;
+  --text-1: #333;
+  --text-2: #666;
+  --text-3: #999;
+
+  --background: #f8f9fa;
+  --background-1: #fff;
+  --background-2: #f0f0f0;
+  --background-3: #e0e0e0;
+
+  --primary: #007bff;
+  --primary-1: #0056b3;
+  --primary-2: #003f7f;
+  --primary-3: #002753;
+
+  --secondary: #6c757d;
+  --secondary-1: #545b62;
+  --secondary-2: #3d4349;
+  --secondary-3: #272b2f;
+
+  --accent: #ff4081;
+  --accent-1: #c60055;
+  --accent-2: #8e0039;
+  --accent-3: #5c001d;
+}

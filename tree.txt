@@ -1,0 +1,66 @@
+.
+├── app
+│   ├── (app)
+│   │   └── app
+│   │       ├── actions.ts
+│   │       ├── app.css
+│   │       ├── components
+│   │       │   └── skeleton
+│   │       │       └── index.tsx
+│   │       ├── layout.tsx
+│   │       ├── page.tsx
+│   │       ├── product
+│   │       │   └── [barcode]
+│   │       │       ├── loading.tsx
+│   │       │       └── page.tsx
+│   │       └── scan
+│   │           ├── BarcodeScanner.tsx
+│   │           ├── page.tsx
+│   │           ├── result
+│   │           │   └── page.tsx
+│   │           └── scanner.tsx
+│   ├── (home)
+│   │   ├── components
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Github.tsx
+│   │   │   ├── Header.tsx
+│   │   │   ├── index.ts
+│   │   │   └── Twitter.tsx
+│   │   ├── home.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── api
+│   │   ├── [barcode]
+│   │   │   └── route.ts
+│   │   ├── route.ts
+│   │   ├── scan
+│   │   │   └── route.ts
+│   │   ├── search
+│   │   │   └── route.ts
+│   │   └── test
+│   ├── colors.css
+│   └── globals.css
+├── constants
+│   ├── additives.ts
+│   └── index.ts
+├── extensions.json
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── prisma
+│   └── schema.prisma
+├── public
+│   └── favicon.ico
+├── README.md
+├── structure.txt
+├── tailwind.config.ts
+├── tree.txt
+├── tsconfig.json
+├── types
+│   └── index.ts
+└── utils
+    └── index.ts
+
+22 directories, 42 files
