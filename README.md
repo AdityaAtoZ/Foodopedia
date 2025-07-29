@@ -7,7 +7,6 @@
 <p align="center">
     <img src="https://img.shields.io/github/license/AdityaAtoZ/Foodopedia?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=ff9520" alt="license">
     <img src="https://img.shields.io/github/last-commit/AdityaAtoZ/Foodopedia?style=for-the-badge&logo=git&logoColor=white&color=ff9520" alt="last-commit">
-    <img src="https://img.shields.io/github/languages/top/Foodopedia?style=for-the-badge&color=ff9520" alt="repo-top-language">
     <img src="https://img.shields.io/github/languages/count/AdityaAtoZ/Foodopedia?style=for-the-badge&color=ff9520" alt="repo-language-count">
 </p>
 
